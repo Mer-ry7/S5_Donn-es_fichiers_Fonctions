@@ -16,11 +16,6 @@ Table : CATEGORIE
 id_categorie (PK)
 nom_categorie
 
-Table : TAG
------------
-id_tag (PK)
-nom_tag
-
 Table : ARTICLE
 ---------------
 id_article (PK)
@@ -31,8 +26,3 @@ statut_article
 image_article
 id_auteur (FK)
 id_categorie (FK)
-
-Table : ARTICLE_TAG
--------------------
-id_article (PK, FK)
-id_tag (PK, FK)
